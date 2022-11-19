@@ -10,7 +10,7 @@ https://danielddalton2.github.io/work-day-scheduler/
 
 ## Usage
 
-ADD Screenshot HERE
+![alt text](./assets/screenshot-work-day-sched.jpg)
 
 ## Credits
 
