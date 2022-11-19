@@ -8,6 +8,7 @@ $(document).ready(function () {
     localStorage.setItem(time, text);
   });
 
+  // Saves text to local storage
   $(".time-block").each(function () {
     console.log(this);
     var id = $(this).attr("id");
@@ -16,8 +17,10 @@ $(document).ready(function () {
     $(this).children("textarea").val(savedText);
   });
 
+  // Displays the current date
   $("#currentDay").text(dayjs().format("[Today is] dddd, MMMM DD, YYYY"));
 
+  // Function to change the time-block color
   function timeHighlight() {
     var currentTime = dayjs().hour();
     console.log(currentTime);
